@@ -1,3 +1,22 @@
+
+@media(max-width:1399px) {
+    .my-work_images  {
+        overflow: hidden;
+    }
+
+
+}
+@media(max-width:1200px) {
+  
+.next-projext__image {
+    max-width: 400px;
+    width: 100%;
+    height: 400px;
+
+}
+
+
+}
 @media(max-width:768px) {
     .site-header-hero {
         padding-top: 34px;
@@ -73,7 +92,7 @@
 
     }
 
-    .image-Graphic-Design {
+    .designer-grafic  {
         grid-area: g;
         width: 314px;
         height: 364px;
@@ -82,38 +101,41 @@
 
     }
 
-    .image-UI-UX {
+    .designer-ui-ux  {
         grid-area: u;
         width: 147px;
         height: 182px;
 
     }
 
-    .image-Apps {
+    .designer-Apps {
         grid-area: a;
         width: 147px;
         height: 182px;
     }
 
-    .image-Illustrations {
+    .designer-illustrations {
         grid-area: i;
         width: 314px;
         height: 168px;
 
     }
 
-    .image-Photography {
+    .designer-phtographiy {
         grid-area: p;
         width: 314px;
         height: 182px;
 
     }
 
-    .image-Motion-Graphics {
+    .designer-motion {
         grid-area: m;
         width: 314px;
         height: 182px;
 
+    }
+    .my-work_images  {
+        overflow: hidden;
     }
 
 
@@ -191,7 +213,7 @@
 }
 
 
-@media(max-width:576px) {
+@media(max-width:767px) {
     .site-header-hero {
         padding-top: 34px;
     }

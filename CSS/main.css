@@ -41,6 +41,7 @@ ul {
     font-weight: 700;
     line-height: 28px;
     transition: .4s;
+    border: unset;
 
 }
 
@@ -61,6 +62,7 @@ ul {
     font-weight: 700;
     line-height: 28px;
     transition: .4s;
+    border: unset;
 
 }
 
@@ -138,6 +140,80 @@ ul {
 .site-main {
     margin-top: 80px;
 }
+.designer-grafic {
+    grid-area: g;
+    max-width: 430px;
+    width: 100%;
+    max-height: 364px;
+    height: 100%;
+    border-radius: 8px;
+    background: var(--Galactic-Blue);
+    position: relative;
+}
+.designer-text {
+    color: #FFF;
+    font-family: var(--font-family-bold);
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+
+}
+.designer-ui-ux {
+    grid-area: u;
+    max-width: 200px;
+    width: 100%;
+    max-height: 182px;
+    height: 100%;
+    border-radius: 8px;
+    background: var(--Summer-Yellow);
+    position: relative;
+}
+.designer-Apps {
+    grid-area: a;
+    max-width: 200px;
+    width: 100%;
+    max-height: 182px;
+    height: 100%;
+    border-radius: 8px;
+    background: #F39E9E;
+    position: relative;
+}
+.designer-illustrations {
+    grid-area: i;
+    max-width: 430px;
+    width: 100%;
+    max-height: 158px;
+    height: 100%;
+    border-radius: 8px;
+    background: var(--Light-Red);
+    position: relative;
+}
+.designer-phtographiy {
+    grid-area: p;
+    max-width: 354px;
+    width: 100%;
+    max-height: 182px;
+    height: 100%;
+    border-radius: 8px;
+    background: var(--Cyan);
+    position: relative;
+}
+.designer-motion {
+    grid-area: m;
+    max-width: 354px;
+    width: 100%;
+    height: 158px;
+    border-radius: 8px;
+    background: #552049;
+    position: relative;
+}
+.designer-image{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
 
 .site-main__wrapper {
     display: grid;
@@ -152,47 +228,7 @@ ul {
 
 }
 
-.image-Graphic-Design {
-    grid-area: g;
-    width: 412px;
-    height: 364px;
 
-
-}
-
-.image-UI-UX {
-    grid-area: u;
-    width: 195px;
-    height: 182px;
-
-}
-
-.image-Apps {
-    grid-area: a;
-    width: 195px;
-    height: 182px;
-}
-
-.image-Illustrations {
-    grid-area: i;
-    width: 412px;
-    height: 158px;
-
-}
-
-.image-Photography {
-    grid-area: p;
-    width: 412px;
-    height: 182px;
-
-}
-
-.image-Motion-Graphics {
-    grid-area: m;
-    width: 412px;
-    height: 158px;
-
-}
 
 .site-main__next-project {
     display: flex;
@@ -201,8 +237,11 @@ ul {
 }
 
 .next-projext__image {
-    width: 445px;
-    height: 445px;
+    max-width: 445px;
+    width: 100%;
+    max-height: 445px;
+    height: 100%;
+  
 
 }
 
@@ -265,11 +304,35 @@ ul {
     width: 100%;
 } */
 
-.my-work__images {
+.my-work_images {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
+
+}
+.my-work_image {
+    max-width: 540px;
+    width: 100%;
+}
+.site-main__my-work--btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.round-button {
+    width: 80px;
+    height: 80px;
+    background-color: var(--Black);
+    border-radius: 50%;
+    transition: .4s;
+
+}
+.round-button:hover{
+    background-color: var(--Galactic-Blue);
+    cursor: pointer;
 
 }
 
@@ -313,6 +376,10 @@ ul {
     line-height: 28px;
 }
 
-.secondary-btn {}
+.site-footer {
+    margin-bottom: 64px;
+}
+
+
 
 /* SITE-MAIN */
